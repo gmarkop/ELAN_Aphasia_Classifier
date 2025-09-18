@@ -28,7 +28,7 @@ import sklearn
 from packaging import version
 import traceback # Import traceback for exception handling
 
-helper_script_dir = '/Data Analysis/New Analysis/helpers'
+helper_script_dir = '/helpers'
 
 if helper_script_dir not in sys.path:
     sys.path.append(helper_script_dir)
@@ -1406,4 +1406,5 @@ def main():
     pass
 
 if __name__ == "__main__":
+
     main()
